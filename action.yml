@@ -13,3 +13,6 @@ runs:
   args:
     - ${{ inputs.package }}
     - ${{ inputs.options }}
+branding:
+  icon: 'check-square'
+  color: 'purple'
