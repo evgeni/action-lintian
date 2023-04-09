@@ -4,8 +4,12 @@ inputs:
   package:
     description: 'The package to run lintian on'
     default: '*.changes'
+  options:
+    description: 'Options to pass to lintian'
+    default: '--info --display-info'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.package }}
+    - ${{ inputs.options }}

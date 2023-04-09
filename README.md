@@ -8,6 +8,10 @@ This action runs [`lintian`](https://salsa.debian.org/lintian/lintian) on a Debi
 
 The package to run `lintian` on. Default `"*.changes"`.
 
+### `options`
+
+The options to pass to `lintian`. Default `"--info --display-info"`.
+
 ## Example usage
 
 ```yaml
