@@ -1,0 +1,11 @@
+name: 'lintian'
+description: 'Run lintian on a Debian package'
+inputs:
+  package:
+    description: 'The package to run lintian on'
+    default: '*.changes'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.package }}
