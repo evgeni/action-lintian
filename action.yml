@@ -1,4 +1,5 @@
 name: 'lintian'
+author: 'Evgeni Golov'
 description: 'Run lintian on a Debian package'
 inputs:
   package:
