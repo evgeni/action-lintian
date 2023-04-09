@@ -1,4 +1,4 @@
-name: 'lintian'
+name: 'Run Lintian'
 author: 'Evgeni Golov'
 description: 'Run lintian on a Debian package'
 inputs:
