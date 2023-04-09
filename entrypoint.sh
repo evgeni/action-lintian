@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-lintian --info --display-info $1
+lintian --allow-root --info --display-info $1
